@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://khazaana-2v74-152lo8aid-coupons-projects-9dca61e5.vercel.app/api";
+const API_BASE_URL = "https://khazaana-bac.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
