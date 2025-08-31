@@ -75,9 +75,10 @@ connectDB()
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_API_LINK || 'http://localhost:3000',
+  origin: "https://khazaana-8jzy.onrender.com", // your frontend URL
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
-}))
+}));
 app.use(express.json({ limit: '10mb' }))
 app.use(express.urlencoded({ extended: true }))
 
