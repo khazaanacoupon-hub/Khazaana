@@ -75,7 +75,7 @@ connectDB()
 
 // Middleware
 app.use(cors({
-  origin: "https://goluck.in", // your frontend URL
+  origin: "https://goluck.in/api", // your frontend URL
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
