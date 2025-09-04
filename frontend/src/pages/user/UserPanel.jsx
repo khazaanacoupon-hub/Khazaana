@@ -335,7 +335,7 @@ const UserPanel = () => {
             <h1 className="title">KHAZAANA</h1>
           </div>
           <Link to="/admin/login" className="admin-login-btn">
-            Admin Login
+            <img src={logo} alt="Logo" className="logo" />
           </Link>
         </div>
       </header>
