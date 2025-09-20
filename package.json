@@ -1,0 +1,27 @@
+{
+  "name": "admin-otp-system",
+  "version": "1.0.0",
+  "description": "Admin OTP System with React Frontend and Node.js Backend",
+  "main": "deploy.js",
+  "type": "module",
+  "scripts": {
+    "start": "node deploy.js",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix frontend",
+    "serve": "node backend/server.js",
+    "deploy": "node deploy.js"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "admin",
+    "otp"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
